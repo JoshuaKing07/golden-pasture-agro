@@ -5,7 +5,7 @@
 */
 
 * {
-    box-sizing: border-box; /* Crucial for responsive width calculation */
+    box-sizing: border-box; 
 }
 
 body {
@@ -78,7 +78,7 @@ body {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Images/Agro.jpeg');
     background-size: cover;
     background-position: center;
-    margin-top: 60px; /* Adjusted to fit navbar height */
+    margin-top: 60px;
     height: 60vh;
     display: flex;
     justify-content: center;
@@ -228,11 +228,11 @@ body {
         display: none; 
         flex-direction: column;
         position: absolute;
-        top: 100%; /* Sits right at the bottom of the navbar */
+        top: 100%; 
         left: 0;
         width: 100%;
         background-color: #1a2a3a;
-        padding: 0; /* Remove padding to keep links tight */
+        padding: 0; 
         gap: 0;
     }
 
